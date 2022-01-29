@@ -1,9 +1,14 @@
+import ItemCount from "./ItemCount";
+
 const ItemListContainer = (props) => {
     return(
-        <p>
+        <div>
+            <p>
             Bienvenido al sitio {props.name}
-        </p>
-    )
+            </p>
+            <ItemCount />
+        </div>
+    );
 };
 
 export default ItemListContainer;

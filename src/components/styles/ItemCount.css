@@ -1,0 +1,16 @@
+.counter{
+    margin: auto;
+    text-align: center;
+}
+
+.quantity{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+button{
+    border-radius: 20%;
+    padding: 1rem;
+}
+
+
